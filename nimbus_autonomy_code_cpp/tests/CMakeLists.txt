@@ -1,0 +1,10 @@
+function(add_nimbus_test target)
+    add_executable(${target} ${target}.cpp)
+    target_link_libraries(${target} PRIVATE nimbus GTest::gtest_main)
+    gtest_discover_tests(${target})
+endfunction()
+
+add_nimbus_test(test_occupancy_grid)
+add_nimbus_test(test_distance_field)
+add_nimbus_test(test_motion_model)
+add_nimbus_test(test_cem_mpc_planner)

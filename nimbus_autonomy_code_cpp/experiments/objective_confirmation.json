@@ -1,0 +1,71 @@
+{
+  "runs_per_configuration": 3,
+  "episode_timeout_seconds": 75,
+  "candidate_configurations": [
+    {
+      "label": "trial_22",
+      "weights": {
+        "objective.progress": 176.83785006361197,
+        "objective.clearance": 0.08092761655183967,
+        "objective.vertical_velocity": 0.1,
+        "objective.control_effort": 0.09092936002368128,
+        "objective.control_rate": 3.8630302359403776,
+        "objective.collision": 1000000.0,
+        "objective.early_collision": 500.0,
+        "objective.minimum_clearance": 0.05
+      }
+    },
+    {
+      "label": "trial_10",
+      "weights": {
+        "objective.progress": 174.15218382746127,
+        "objective.clearance": 0.08347212273159386,
+        "objective.vertical_velocity": 0.1,
+        "objective.control_effort": 0.032587046921811386,
+        "objective.control_rate": 7.238538013864096,
+        "objective.collision": 1000000.0,
+        "objective.early_collision": 500.0,
+        "objective.minimum_clearance": 0.05
+      }
+    },
+    {
+      "label": "trial_12",
+      "weights": {
+        "objective.progress": 154.035554537882,
+        "objective.clearance": 0.08728512232577593,
+        "objective.vertical_velocity": 0.1,
+        "objective.control_effort": 0.03221187736147101,
+        "objective.control_rate": 3.898702195323128,
+        "objective.collision": 1000000.0,
+        "objective.early_collision": 500.0,
+        "objective.minimum_clearance": 0.05
+      }
+    },
+    {
+      "label": "trial_14",
+      "weights": {
+        "objective.progress": 178.68890666337586,
+        "objective.clearance": 0.07709284781762672,
+        "objective.vertical_velocity": 0.1,
+        "objective.control_effort": 0.05825105429895352,
+        "objective.control_rate": 4.928739382213372,
+        "objective.collision": 1000000.0,
+        "objective.early_collision": 500.0,
+        "objective.minimum_clearance": 0.05
+      }
+    },
+    {
+      "label": "trial_19",
+      "weights": {
+        "objective.progress": 165.32841158299738,
+        "objective.clearance": 0.10734727456685979,
+        "objective.vertical_velocity": 0.1,
+        "objective.control_effort": 0.04817486636004748,
+        "objective.control_rate": 1.9814991786490703,
+        "objective.collision": 1000000.0,
+        "objective.early_collision": 500.0,
+        "objective.minimum_clearance": 0.05
+      }
+    }
+  ]
+}

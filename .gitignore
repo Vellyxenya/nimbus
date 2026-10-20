@@ -1,0 +1,12 @@
+build/
+
+*.pyc
+
+*.egg-info/
+*.egg
+
+venv/
+.venv/
+
+__pycache__/
+experiment_results/

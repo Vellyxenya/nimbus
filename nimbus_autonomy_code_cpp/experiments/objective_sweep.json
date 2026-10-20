@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "trial_count": 24,
+  "runs_per_configuration": 1,
+  "tpe_startup_trials": 10,
+  "episode_timeout_seconds": 75,
+  "fixed_parameters": {
+    "objective.vertical_velocity": 0.1,
+    "objective.collision": 1000000.0,
+    "objective.early_collision": 500.0,
+    "objective.minimum_clearance": 0.05
+  },
+  "ranges": {
+    "objective.progress": {"lower": 60.0, "upper": 180.0, "scale": "linear"},
+    "objective.clearance": {"lower": 0.03, "upper": 0.5, "scale": "log"},
+    "objective.control_rate": {"lower": 0.3, "upper": 8.0, "scale": "log"},
+    "objective.control_effort": {"lower": 0.03, "upper": 3.0, "scale": "log"}
+  }
+}
